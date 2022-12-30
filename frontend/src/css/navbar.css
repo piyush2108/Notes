@@ -1,0 +1,55 @@
+.navbar{
+     padding: 1rem;
+}
+
+.nav-title{
+     text-align: center;
+     margin-top: -4rem;
+     z-index: -1;
+     overflow: hidden;
+}
+
+#nav-title{
+     font-family: var(--font-primary);
+     font-size: 10rem;
+     font-weight: 600;
+     color: var(--color-text-light);
+     opacity: var(--nav-title-opacity);
+}
+
+.nav-components{
+     margin-top: -6rem;
+     padding: 0 5%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: flex-start;
+}
+
+.navbar-logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#main-logo{
+     width: 3rem;
+}
+
+#logo-text{
+     font-family: var(--font-title);
+     font-size: 2rem;
+     font-weight: 400;
+}
+
+.nav-list-items{
+     font-family: var(--font-secondary);
+     font-size: 1.5rem;
+}
+
+.nav-item-primary{
+     color: var(--color-primary-orange);
+}
+
+.nav-item-danger{
+     color: var(--color-primary-red);
+}

@@ -1,0 +1,25 @@
+@import "./css/navbar.css";
+
+:root{
+  --background-dark: #000000;
+  --background-light: #FFFFFF;
+  --color-text-dark: #000000;
+  --color-text-light: #FFFFFF;
+  --color-primary-red: #EF4036;
+  --color-primary-orange: #F1592A;
+  --nav-title-opacity: 5%;
+  --font-primary: 'Montserrat', sans-serif;
+  --font-title: 'Anonymous Pro', monospace;
+  --font-secondary: 'Poor Story', cursive;;
+}
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--background-dark);
+  color: var(--color-text-light);
+}
